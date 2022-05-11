@@ -90,6 +90,7 @@ func Provider() *schema.Provider {
 			"pagerduty_webhook_subscription":        resourcePagerDutyWebhookSubscription(),
 			"pagerduty_event_orchestration":         resourcePagerDutyEventOrchestration(),
 			"pagerduty_event_orchestration_router":  resourcePagerDutyEventOrchestrationPathRouter(),
+			"pagerduty_event_orchestration_service": resourcePagerDutyEventOrchestrationPathService(),
 		},
 	}
 
